@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SSS",
+    "M M"
+  ],
+  "key": {
+    "M": {
+      "item": "tutorialmod:mythril_ingot"
+    },
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      }
+    }
+  },
+  "result": {
+    "item": "tutorialmod:dowsing_rod"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "tutorialmod:mythril_ore"
+  },
+  "result": "tutorialmod:raw_mythril",
+  "experience": 5.0,
+  "cookingtime": 100
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    "MMM",
+    " S "
+  ],
+  "key": {
+    "M": {
+      "item": "tutorialmod:mythril_ingot"
+    },
+    "key": {
+      "S": {
+        "item": "minecraft:blaze_rod"
+      }
+    }
+  },
+  "result": {
+    "item": "tutorialmod:mythril_sword"
+  }
+}
