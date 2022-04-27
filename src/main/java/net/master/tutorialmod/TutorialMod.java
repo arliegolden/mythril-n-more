@@ -8,6 +8,7 @@ import net.master.tutorialmod.block.ModBlocks;
 import net.master.tutorialmod.item.ModItemGroup;
 import net.master.tutorialmod.item.ModItems;
 import net.minecraft.block.Blocks;
+
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
@@ -35,7 +36,7 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		Registry.register(Registry.ITEM, new Identifier("tutorialmod", "netherite_shield"), NETHERITE_SHIELD);
-
+		LootTables.init();
 
 
 
