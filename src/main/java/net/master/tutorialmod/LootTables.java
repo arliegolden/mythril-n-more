@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 
 public class LootTables {
 
-    // Nether Fortress chests loot table.
+    // End city chests loot table.
     private static final Identifier END_CITY_TREASURE = new Identifier("minecraft", "chests/end_city_treasure");
 
     public static void init() {
