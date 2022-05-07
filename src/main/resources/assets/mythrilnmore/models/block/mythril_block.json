@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mythrilnmore:block/mythril_block"
+  }
+}

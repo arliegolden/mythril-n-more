@@ -7,7 +7,7 @@
   ],
   "key": {
     "M": {
-      "item": "tutorialmod:mythril_ingot"
+      "item": "mythrilnmore:mythril_ingot"
     },
     "key": {
       "S": {
@@ -16,6 +16,6 @@
     }
   },
   "result": {
-    "item": "tutorialmod:mythril_shovel"
+    "item": "mythrilnmore:mythril_shovel"
   }
 }

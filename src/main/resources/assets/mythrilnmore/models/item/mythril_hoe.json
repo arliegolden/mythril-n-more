@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "mythrilnmore:item/mythril_hoe"
+  }
+}

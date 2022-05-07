@@ -1,0 +1,32 @@
+{
+  "item.mythrilnmore.mythril_ingot": "Mythril Ingot",
+  "item.mythrilnmore.mythril_nugget": "Mythril Nugget",
+  "item.mythrilnmore.raw_mythril": "Frozen Mythril",
+  "item.mythrilnmore.dowsing_rod": "Dowsing Rod",
+
+  "item.mythrilnmore.mythril_pickaxe": "Mythril Pickaxe",
+  "item.mythrilnmore.mythril_axe": "Mythril Axe",
+  "item.mythrilnmore.mythril_shovel": "Mythril Shovel",
+  "item.mythrilnmore.mythril_hoe": "Mythril Scythe",
+  "item.mythrilnmore.mythril_sword": "Mythril Greatsword",
+
+  "item.mythrilnmore.netherite_shield": "Netherite Shield",
+  "item.mythrilnmore.rings": "Rings of Power",
+
+  "item.mythrilnmore.mythril_helmet": "Mythril Helmet",
+  "item.mythrilnmore.mythril_chestplate": "Mythril Chestplate",
+  "item.mythrilnmore.mythril_leggings": "Mythril Leggings",
+  "item.mythrilnmore.mythril_boots": "Mythril Boots",
+
+  "block.mythrilnmore.mythril_block": "Mythril Block",
+  "block.mythrilnmore.mythril_ore": "Frozen Mythril Ore",
+
+  "itemGroup.mythrilnmore.mythril": "Mythril 'n More!",
+
+  "item.mythrilnmore.dowsing_rod.no_valuables": "No Valuables Found!",
+
+  "item.mythrilnmore.dowsing_rod.tooltip": "Press §l§bSHIFT§r for more info",
+  "item.mythrilnmore.dowsing_rod.tooltip.shift": "§bRight Click the ground to find valuables!",
+  "item.mythrilnmore.rings.tooltip": "Press §l§bSHIFT§r for more info",
+  "item.mythrilnmore.rings.tooltip.shift": "§l§6Wield the power of the Rings in your very possession!"
+}

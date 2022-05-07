@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "tutorialmod:raw_mythril"
+    "item": "mythrilnmore:raw_mythril"
   },
-  "result": "tutorialmod:mythril_nugget",
+  "result": "mythrilnmore:mythril_nugget",
   "experience": 10.0,
   "cookingtime": 100
 }

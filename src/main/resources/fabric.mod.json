@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "mythrilnmore",
   "version": "${version}",
 
   "name": "Mythril 'n More",
@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.master.tutorialmod.TutorialMod"
+      "net.master.mythrilnmore.Mythril_n_More"
     ]
   },
   "mixins": [

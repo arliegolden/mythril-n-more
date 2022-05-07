@@ -7,10 +7,10 @@
   ],
   "key": {
     "M": {
-      "item": "tutorialmod:mythril_ingot"
+      "item": "mythrilnmore:mythril_ingot"
     }
   },
   "result": {
-    "item": "tutorialmod:mythril_block"
+    "item": "mythrilnmore:mythril_block"
   }
 }
