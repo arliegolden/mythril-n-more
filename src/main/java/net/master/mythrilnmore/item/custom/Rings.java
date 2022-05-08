@@ -3,22 +3,20 @@ package net.master.mythrilnmore.item.custom;
 import java.util.List;
 import java.util.function.Predicate;
 
+import net.master.mythrilnmore.Mythril_n_More;
+import net.master.mythrilnmore.sound.Sounds;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.enchantment.Enchantments;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.projectile.PersistentProjectileEntity;
-import net.minecraft.entity.projectile.ProjectileEntity;
 import net.minecraft.item.*;
 import net.minecraft.sound.SoundCategory;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
-import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.util.UseAction;
@@ -34,6 +32,7 @@ public class Rings
     public Rings(Item.Settings settings) {
         super(settings);
     }
+
 
 
     @Override
@@ -62,7 +61,7 @@ public class Rings
             int j = 0;
             ArrowItem arrowItem = (ArrowItem)(itemStack.getItem() instanceof ArrowItem ? itemStack.getItem() : Items.ARROW);
             PersistentProjectileEntity persistentProjectileEntity = arrowItem.createArrow(world, itemStack, playerEntity);
-            persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 3.0f, 1.0f);
+            persistentProjectileEntity.setVelocity(playerEntity, playerEntity.getPitch(), playerEntity.getYaw(), 0.0f, f * 4.0f, 1.0f);
             if (f == 1.0f) {
                 persistentProjectileEntity.setCritical(true);
             }
@@ -73,7 +72,8 @@ public class Rings
                 persistentProjectileEntity.setPunch(2);
             }
             if (!world.isClient) {
-                persistentProjectileEntity.setOnFireFor(100);
+                persistentProjectileEntity.setNoGravity(true);
+                persistentProjectileEntity.isAttackable();
             }
             stack.damage(1, playerEntity, p -> p.sendToolBreakStatus(playerEntity.getActiveHand()));
             if (bl2 || playerEntity.getAbilities().creativeMode && (itemStack.isOf(Items.SPECTRAL_ARROW) || itemStack.isOf(Items.TIPPED_ARROW))) {
@@ -81,7 +81,7 @@ public class Rings
             }
             world.spawnEntity(persistentProjectileEntity);
         }
-        world.playSound(null, playerEntity.getX(), playerEntity.getY(), playerEntity.getZ(), SoundEvents.BLOCK_AMETHYST_CLUSTER_PLACE, SoundCategory.PLAYERS, 10.0f, 0.7f / (world.getRandom().nextFloat() * 0.4f + 1.2f) + f * 0.5f);
+        world.playSound(null, playerEntity.getX(), playerEntity.getY(), playerEntity.getZ(), Sounds.PROPELL_ENERGY, SoundCategory.PLAYERS, 10.0f, 1.4f / (world.getRandom().nextFloat() * 0.4f + 1.2f) + f * 0.5f);
         if (!bl2 && !playerEntity.getAbilities().creativeMode) {
             itemStack.decrement(1);
             if (itemStack.isEmpty()) {

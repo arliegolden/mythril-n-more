@@ -22,7 +22,7 @@ import java.util.List;
 
 public class ModItems {
     public static final Item RINGS = registerItem("rings",
-            new Rings(new FabricItemSettings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC)));
+            new Rings(new FabricItemSettings().group(ItemGroup.COMBAT).rarity(Rarity.EPIC).maxDamage(8).maxCount(1).fireproof()));
 
 
 

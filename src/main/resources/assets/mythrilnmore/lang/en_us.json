@@ -28,5 +28,7 @@
   "item.mythrilnmore.dowsing_rod.tooltip": "Press §l§bSHIFT§r for more info",
   "item.mythrilnmore.dowsing_rod.tooltip.shift": "§bRight Click the ground to find valuables!",
   "item.mythrilnmore.rings.tooltip": "Press §l§bSHIFT§r for more info",
-  "item.mythrilnmore.rings.tooltip.shift": "§l§6Wield the power of the Rings in your very possession!"
+  "item.mythrilnmore.rings.tooltip.shift": "§l§6Wield the power of the Rings in your very possession!",
+
+  "subtitles.mythrilnmore.propell_energy": "Energy Propelled Ring"
 }
